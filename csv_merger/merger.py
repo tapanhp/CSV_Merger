@@ -7,11 +7,14 @@ http://www.convertcsv.com/csv-viewer-editor.htm
 import csv
 import glob
 import os
+import datetime
 
 # Use these to declare paths and file names
 OUTPUT_FOLDER_PATH = "outputs"
 INPUT_FOLDER_PATH = ""
-RESULT_FILE = "final_result.csv"
+TIME_STAMP = datetime.datetime.now()
+TIME_STAMP_STR = TIME_STAMP.strftime("%Y_%m_%d_%H%M%S")
+RESULT_FILE = "final_result_" + TIME_STAMP_STR + '.csv'
 PLACE_HOLDER_OWNER_MAIL = "someone@example.com"
 
 files_to_read = []
