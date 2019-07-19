@@ -63,4 +63,4 @@ We can separate them out into separate functions and for the first one we can pr
 
 
 
-That's all to do.  The result file will be available inside the **output folder** with current time stamp value. 
+That's all to do.  The result file will be available inside the **outputs folder** with current time stamp value. 
