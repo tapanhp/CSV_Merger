@@ -4,8 +4,8 @@ http://www.convertcsv.com/csv-viewer-editor.htm
 
 """
 
-import glob
 import csv
+import glob
 import os
 
 # Use these to declare paths and file names
@@ -24,7 +24,8 @@ column_names = ['First Name', 'Last Name', 'Title', 'Client Name', 'Direct Phone
 
 def read_all_csv_files():
     """
-    Read all the files having extension .CSV and store names inside @files_to_read
+    Read all the files having extension .CSV on folder path @INPUT_FOLDER_PATH
+    and store names inside @files_to_read
 
     If no file with CSV extension then won't proceed further
     else call @create_output_file
