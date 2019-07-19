@@ -30,9 +30,9 @@ Skills
 
 That needs to be combined into a new csv file.
 
-In the new csv file, we need to **add a column called `Contact Owner**`.
+In the new csv file, we need to **add a column** called `Contact Owner`.
 
-In that column we need to be able to insert an email value so we should have a **placeholder such as `someone@example.com`.**
+In that column we need to be able to insert an email value so we should have a **placeholder such as** `someone@example.com`.
 
 Then in each spread sheet we need to take every `,` or comma value and replace it with a semi-colon `;` value.
 
@@ -49,7 +49,7 @@ We can separate them out into separate functions and for the first one we can pr
 
 
 
-#### Sample data files are available inside [here](./csv_meger) 
+#### Sample data files are available inside [here](csv_meger) 
 
 - python-sample-01.csv
 - python-sample-02.csv
