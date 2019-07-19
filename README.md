@@ -49,7 +49,7 @@ We can separate them out into separate functions and for the first one we can pr
 
 
 
-#### Sample data files are available inside [here](csv_meger) 
+#### Sample data files are available inside [here](csv_merger) 
 
 - python-sample-01.csv
 - python-sample-02.csv
